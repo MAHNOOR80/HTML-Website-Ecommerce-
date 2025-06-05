@@ -541,3 +541,136 @@ top: 40;
     border-radius: 10px;
     margin-left: 30px;
 }
+
+/* Responsive for tablets (768px and below) */
+@media screen and (max-width: 768px) {
+
+    #para1 {
+        margin-left: 0;
+        text-align: center;
+        display: block;
+    }
+
+    #navdiv {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .components {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    #navsearch {
+        width: 150px;
+        padding-left: 30px;
+    }
+
+    #herodiv {
+        height: auto;
+        width: 100%;
+        background-position: center;
+    }
+
+    #heropara1,
+    #heropara2,
+    #herobtn,
+    #divfornum {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: auto;
+    }
+
+    #brandlogo {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    #logopara1, #logopara2, #logopara3, #logopara4, #logopara5 {
+        left: 0;
+        font-size: 1.5rem;
+    }
+
+    #Arrivaldiv {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    #arrbtn {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #customerreview {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    #blackfoot {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        width: 100%;
+    }
+
+    #div1foot {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        gap: 30px;
+    }
+
+    #blackpara {
+        font-size: 1.5rem;
+        width: auto;
+        text-align: center;
+    }
+
+    #blackinput {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}
+
+/* Responsive for mobile (480px and below) */
+@media screen and (max-width: 480px) {
+
+    #heropara1 {
+        font-size: 2rem;
+        padding-top: 20px;
+    }
+
+    #heropara2 {
+        font-size: 0.9rem;
+    }
+
+    #herobtn {
+        width: 150px;
+        height: 35px;
+    }
+
+    .arripara {
+        font-size: small;
+    }
+
+    #NewArrival, #customers {
+        font-size: 2rem;
+    }
+
+    #blackpara {
+        font-size: 1.2rem;
+    }
+
+    .components {
+        font-size: 0.9rem;
+    }
+}
